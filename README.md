@@ -18,3 +18,5 @@ Get the variables on Keys and tokens menu
 
 When using TwitterProducer class, configure variables: consumerKey, consumerSecret, token, secret.
 When using Kafka Connect example on kafka-connect > run.sh, configure twitter.properties replacing the same variables on the configuration file.
+
+Kafka Connect Twitter: https://github.com/jcustenborder/kafka-connect-twitter (Already included in the project)
