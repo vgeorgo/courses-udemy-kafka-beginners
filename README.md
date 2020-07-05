@@ -11,6 +11,9 @@ https://www.udemy.com/course/apache-kafka/
 - Create a topic with the name used on the example. ie: 
 - Run any producer/consumer test example manually
 
+## Elastic
+Fill the host and credentials on the ElasticSearchConsumer.java class.
+
 ## Twitter
 
 Get access data creating an app on: https://developer.twitter.com/en/apps
