@@ -34,9 +34,9 @@ public class ElasticSearchConsumer {
     public static JsonParser jsonParser = new JsonParser();
 
     public static RestHighLevelClient createClient() {
-        String hostname = "kafka-course-testing-4339504623.us-east-1.bonsaisearch.net";
-        String username = "bdgtzs743b";
-        String password = "wnm3ear3h4";
+        String hostname = "REQUIRED_HOST";
+        String username = "REQUIRED_USERNAME";
+        String password = "REQUIRED_PASSWORD";
 
         final CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
         credentialsProvider.setCredentials(AuthScope.ANY, new UsernamePasswordCredentials(username, password));
